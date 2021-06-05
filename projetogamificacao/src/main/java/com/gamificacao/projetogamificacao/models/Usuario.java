@@ -1,4 +1,4 @@
-package com.gamificacao.projetogamificacao.Models;
+package com.gamificacao.projetogamificacao.models;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

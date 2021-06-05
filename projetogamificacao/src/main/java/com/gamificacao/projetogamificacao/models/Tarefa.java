@@ -1,4 +1,4 @@
-package com.gamificacao.projetogamificacao.Models;
+package com.gamificacao.projetogamificacao.models;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

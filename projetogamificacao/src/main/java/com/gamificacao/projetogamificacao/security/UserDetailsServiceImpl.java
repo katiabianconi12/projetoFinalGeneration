@@ -1,4 +1,4 @@
-package com.gamificacao.projetogamificacao.Security;
+package com.gamificacao.projetogamificacao.security;
 
 import java.util.Optional;
 
@@ -8,8 +8,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.gamificacao.projetogamificacao.Models.Usuario;
-import com.gamificacao.projetogamificacao.Repository.UsuarioRepository;
+import com.gamificacao.projetogamificacao.models.Usuario;
+import com.gamificacao.projetogamificacao.repository.UsuarioRepository;
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {

@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.gamificacao.projetogamificacao.Models.Tarefa;
-import com.gamificacao.projetogamificacao.Repository.TarefaRepository;
-import com.gamificacao.projetogamificacao.Service.TarefasService;
+import com.gamificacao.projetogamificacao.models.Tarefa;
+import com.gamificacao.projetogamificacao.repository.TarefaRepository;
+import com.gamificacao.projetogamificacao.service.TarefasService;
 
 @RestController
 @CrossOrigin ("*")

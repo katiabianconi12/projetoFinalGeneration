@@ -1,11 +1,11 @@
-package com.gamificacao.projetogamificacao.Security;
+package com.gamificacao.projetogamificacao.security;
 
 import java.util.Collection;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.gamificacao.projetogamificacao.Models.Usuario;
+import com.gamificacao.projetogamificacao.models.Usuario;
 
 public class UserDetailsImpl implements UserDetails {
 	

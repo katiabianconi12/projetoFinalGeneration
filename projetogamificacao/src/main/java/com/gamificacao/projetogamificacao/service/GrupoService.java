@@ -1,4 +1,4 @@
-package com.gamificacao.projetogamificacao.Service;
+package com.gamificacao.projetogamificacao.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,11 +6,11 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.gamificacao.projetogamificacao.Models.Aprovacao;
-import com.gamificacao.projetogamificacao.Models.Grupo;
-import com.gamificacao.projetogamificacao.Models.InscricaoGrupo;
-import com.gamificacao.projetogamificacao.Repository.GrupoRepository;
-import com.gamificacao.projetogamificacao.Repository.InscricaoRepository;
+import com.gamificacao.projetogamificacao.models.Aprovacao;
+import com.gamificacao.projetogamificacao.models.Grupo;
+import com.gamificacao.projetogamificacao.models.InscricaoGrupo;
+import com.gamificacao.projetogamificacao.repository.GrupoRepository;
+import com.gamificacao.projetogamificacao.repository.InscricaoRepository;
 
 @Service
 public class GrupoService {

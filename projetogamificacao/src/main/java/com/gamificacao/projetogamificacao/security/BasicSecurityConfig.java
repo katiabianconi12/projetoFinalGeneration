@@ -1,4 +1,4 @@
-package com.gamificacao.projetogamificacao.Security;
+package com.gamificacao.projetogamificacao.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

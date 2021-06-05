@@ -14,18 +14,14 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.gamificacao.projetogamificacao.Models.Grupo;
-import com.gamificacao.projetogamificacao.Repository.GrupoRepository;
-
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.gamificacao.projetogamificacao.Models.Aprovacao;
-import com.gamificacao.projetogamificacao.Models.Grupo;
-import com.gamificacao.projetogamificacao.Repository.GrupoRepository;
-import com.gamificacao.projetogamificacao.Service.GrupoService;
+import com.gamificacao.projetogamificacao.models.Aprovacao;
+import com.gamificacao.projetogamificacao.models.Grupo;
+import com.gamificacao.projetogamificacao.repository.GrupoRepository;
+import com.gamificacao.projetogamificacao.service.GrupoService;
 
 @RestController
 @RequestMapping("/grupo")

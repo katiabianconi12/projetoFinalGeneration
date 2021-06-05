@@ -1,4 +1,4 @@
-package com.gamificacao.projetogamificacao.Repository;
+package com.gamificacao.projetogamificacao.repository;
 
 
 
@@ -7,7 +7,7 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.gamificacao.projetogamificacao.Models.Grupo;
+import com.gamificacao.projetogamificacao.models.Grupo;
 
 @Repository
 public interface GrupoRepository extends JpaRepository<Grupo, Long> {

@@ -1,4 +1,4 @@
-package com.gamificacao.projetogamificacao.Models;
+package com.gamificacao.projetogamificacao.models;
 
 import java.util.ArrayList;
 import java.util.HashSet;

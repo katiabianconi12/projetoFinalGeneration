@@ -1,4 +1,4 @@
-package com.gamificacao.projetogamificacao.Service;
+package com.gamificacao.projetogamificacao.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -7,12 +7,12 @@ import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.gamificacao.projetogamificacao.Models.Atividades;
-import com.gamificacao.projetogamificacao.Models.InscricaoGrupo;
-import com.gamificacao.projetogamificacao.Models.PostagemQuiz;
-import com.gamificacao.projetogamificacao.Models.Usuario;
-import com.gamificacao.projetogamificacao.Repository.AtividadesRepository;
-import com.gamificacao.projetogamificacao.Repository.UsuarioRepository;
+import com.gamificacao.projetogamificacao.models.Atividades;
+import com.gamificacao.projetogamificacao.models.InscricaoGrupo;
+import com.gamificacao.projetogamificacao.models.PostagemQuiz;
+import com.gamificacao.projetogamificacao.models.Usuario;
+import com.gamificacao.projetogamificacao.repository.AtividadesRepository;
+import com.gamificacao.projetogamificacao.repository.UsuarioRepository;
 
 @Service
 public class AtividadesService {

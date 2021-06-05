@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.gamificacao.projetogamificacao.Models.InscricaoGrupo;
-import com.gamificacao.projetogamificacao.Repository.InscricaoRepository;
+import com.gamificacao.projetogamificacao.models.InscricaoGrupo;
+import com.gamificacao.projetogamificacao.repository.InscricaoRepository;
 
 @RestController
 @RequestMapping("/inscricao")

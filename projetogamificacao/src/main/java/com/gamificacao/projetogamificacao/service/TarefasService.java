@@ -1,15 +1,15 @@
-package com.gamificacao.projetogamificacao.Service;
+package com.gamificacao.projetogamificacao.service;
 
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.gamificacao.projetogamificacao.Models.Atividades;
-import com.gamificacao.projetogamificacao.Models.Tarefa;
-import com.gamificacao.projetogamificacao.Repository.AtividadesRepository;
-import com.gamificacao.projetogamificacao.Repository.TarefaRepository;
-import com.gamificacao.projetogamificacao.Repository.UsuarioRepository;
+import com.gamificacao.projetogamificacao.models.Atividades;
+import com.gamificacao.projetogamificacao.models.Tarefa;
+import com.gamificacao.projetogamificacao.repository.AtividadesRepository;
+import com.gamificacao.projetogamificacao.repository.TarefaRepository;
+import com.gamificacao.projetogamificacao.repository.UsuarioRepository;
 
 @Service
 public class TarefasService {

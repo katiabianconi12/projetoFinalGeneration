@@ -18,14 +18,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.gamificacao.projetogamificacao.Models.Grupo;
-import com.gamificacao.projetogamificacao.Models.Usuario;
-import com.gamificacao.projetogamificacao.Models.UsuarioLogin;
-
-import com.gamificacao.projetogamificacao.Repository.GrupoRepository;
-
-import com.gamificacao.projetogamificacao.Repository.UsuarioRepository;
-import com.gamificacao.projetogamificacao.Service.UsuarioService;
+import com.gamificacao.projetogamificacao.models.Grupo;
+import com.gamificacao.projetogamificacao.models.Usuario;
+import com.gamificacao.projetogamificacao.models.UsuarioLogin;
+import com.gamificacao.projetogamificacao.repository.GrupoRepository;
+import com.gamificacao.projetogamificacao.repository.UsuarioRepository;
+import com.gamificacao.projetogamificacao.service.UsuarioService;
 
 @RestController
 @CrossOrigin ("*")
