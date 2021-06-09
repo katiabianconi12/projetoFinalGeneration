@@ -14,15 +14,17 @@ export class Usuario{
     public dataNascimento: Date
     public responsabilidadePessoal: number
     public mentalidadeCrescimento: number
-    public orientacaoFuturo: number
+    public atencaoDetalhes: number
     public persistencia: number
+    public comunicacao: number
+    public planejamento: number
+    public proatividade: number
     public senha: string
     public foto: string
-    public avatar: string
     public aprovacao: AprovacaoAmigos[]
     public meusPedidosAmizade: AprovacaoAmigos[]
     public gruposCriados: Grupo[]
-    public atividesUsuario: Atividades[]
+    public atividadesUsuario: Atividades[]
     public listaInscricaoUG: InscricaoGrupo[]
     public listaTarefas: Tarefa[] 
 }
